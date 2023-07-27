@@ -27,6 +27,11 @@ ifconfig
 wlp0s20f3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.99  netmask 255.255.255.0  broadcast 192.168.1.255
 ```
+Instalar as dependências do projeto
+```sh
+composer install ou
+composer update
+```
 
 Configurações do docker-compose.yml
 ```sh
@@ -57,12 +62,6 @@ DB_PASSWORD=root
 Suba os containers do projeto
 ```sh
 ./vendor/bin/sail up -d
-```
-
-Instalar as dependências do projeto
-```sh
-composer install ou
-composer update
 ```
 
 Gerar a key do projeto Laravel
