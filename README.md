@@ -33,6 +33,11 @@ composer install ou
 composer update
 ```
 
+Gere a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
 Configurações do docker-compose.yml
 ```sh
 porta que roda o projeto
@@ -62,11 +67,6 @@ DB_PASSWORD=root
 Suba os containers do projeto
 ```sh
 ./vendor/bin/sail up -d
-```
-
-Gerar a key do projeto Laravel
-```sh
-php artisan key:generate
 ```
 
 Rode o migrate para criar as tabelas
