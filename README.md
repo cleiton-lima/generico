@@ -74,6 +74,10 @@ Rode o migrate para criar as tabelas
 ```sh
 php artisan migrate
 ```
+Popule o banco com dados fictícios através de seeders. Rode o seguinte comando:
+```sh
+php artisan db:seed
+```
 
 Acesse a API na ferramenta de preferência, Postman, por exemplo
 ```
